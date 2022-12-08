@@ -10,7 +10,7 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 /media
-/vic
+
 /static
 
 # If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
@@ -135,9 +135,9 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+.vic
 env/
-venv/
+vic/
 ENV/
 env.bak/
 venv.bak/
